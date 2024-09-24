@@ -1,0 +1,11 @@
+.navigation-bar{
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+}
+.navigations{
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+    gap: 25px;
+}

@@ -1,0 +1,28 @@
+.left{
+    width: 24px;
+    height: 24px;
+}
+.right{
+    width: 24px;
+    height: 24px;
+}
+.oqitish{
+   text-align: center;
+   margin-top: 55px;
+   color: blue;
+}
+.plat__des , .kelajal__des{
+    text-align: center;
+    margin-top: 10px;
+}
+.button__btn{
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 450px;
+    
+}
+.reverse-switch {
+    transform: rotateY(180deg); 
+  }
+ 

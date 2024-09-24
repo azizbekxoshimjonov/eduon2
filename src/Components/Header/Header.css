@@ -1,0 +1,50 @@
+.nav__item{
+    display: flex;
+    align-items: center;
+}
+.nav__list{
+    display: flex;
+    align-items: center;
+    margin-left: 250px;
+    gap: 60px;
+}
+.nav__nav2{
+    margin-top: -50px;
+}
+.uzb{
+    border: none;
+    cursor: pointer;
+}
+.rus{
+    border: none;
+    cursor: pointer;
+}
+.nav__nav a {
+    color: gray;
+    text-decoration: none;
+    position: relative;
+    padding: 5px 0;
+    transition: color 0.3s ease, border-bottom 0.3s ease;
+  }
+  .nav__nav a.active {
+    color: black; 
+  }
+  .nav__nav a.active::after {
+    content: '';
+    position: absolute;
+    margin-top: 20px;
+    left: 0;
+    width: 36px; 
+    height: 2px; 
+    background-color: blue; 
+  }
+  .kirish__btn{
+    margin-left: 50px;
+    width: 117px;
+    height: 51px;
+    background: rgba(231, 240, 255, 1);
+    color: blue;
+    border-radius: 14px;
+    border: none;
+  }
+  
